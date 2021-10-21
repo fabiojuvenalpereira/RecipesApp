@@ -2,7 +2,7 @@
 ## Recipes App foi um projeto de finalização de módulo da trybe, neste caso módulo de FRONT END.
 #### Utilizado para testar os conhecimentos adquiridos até a realização do projeto.
 #### Para acompanhar o resultado do projeto clique aqui --> https://recipes-app-wheat-tau.vercel.app/
-ps. Este app foi desenvolvido para visualização em dispositivos móveis, principalmente celulares. A visualização através do navegador de forma direta não representa a melhor experiência para o usuário. Para contornar esta situação para visualizar em seu desktop você pode utilizar os seguintes passos.
+ps. Este app foi desenvolvido para visualização em dispositivos móveis, principalmente celulares. A visualização através do navegador de forma direta não representa a melhor experiência para o usuário. Para contornar esta situação e visualizar em seu desktop de uma maneira mais próxima da qual foi projetado o app, você pode utilizar os seguintes passos:
 - Quando estiver na página Pressionar F12 do seu teclado
 - Quando aparecer o menu de inspeção Pressionar ctrl + shift + m
 - Utilizando as caixas para alteração da resolução logo na parte superior da tela selecionar a resolução 360 x 640
