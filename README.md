@@ -1,7 +1,7 @@
 # RECIPES APP
 ## Recipes App foi um projeto de finalização de módulo da trybe, neste caso módulo de FRONT END.
 #### Utilizado para testar os conhecimentos adquiridos até a realização do projeto.
-#### Para acompanhar o resultado do projeto clique aqui --> LINK DO PROJETO
+#### Para acompanhar o resultado do projeto clique aqui --> https://recipes-app-wheat-tau.vercel.app/
 [![N|trybe](https://uploads-ssl.webflow.com/5fba98ad987231cf0efa3d58/5fba9c9a93a2e77624258d49_Logo.svg)](https://www.betrybe.com/)
 
 ## Over View do Projeto
