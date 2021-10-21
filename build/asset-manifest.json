@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/app-toot-name/static/css/main.3c45135c.chunk.css",
+    "main.js": "/app-toot-name/static/js/main.f2577acb.chunk.js",
+    "main.js.map": "/app-toot-name/static/js/main.f2577acb.chunk.js.map",
+    "runtime-main.js": "/app-toot-name/static/js/runtime-main.80a417a2.js",
+    "runtime-main.js.map": "/app-toot-name/static/js/runtime-main.80a417a2.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/app-toot-name/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.88341d2c.chunk.js": "/app-toot-name/static/js/2.88341d2c.chunk.js",
+    "static/js/2.88341d2c.chunk.js.map": "/app-toot-name/static/js/2.88341d2c.chunk.js.map",
+    "index.html": "/app-toot-name/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/app-toot-name/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.3c45135c.chunk.css.map": "/app-toot-name/static/css/main.3c45135c.chunk.css.map",
+    "static/js/2.88341d2c.chunk.js.LICENSE.txt": "/app-toot-name/static/js/2.88341d2c.chunk.js.LICENSE.txt",
+    "static/media/blackHeartIcon.083cb006.svg": "/app-toot-name/static/media/blackHeartIcon.083cb006.svg",
+    "static/media/close.3721b02e.svg": "/app-toot-name/static/media/close.3721b02e.svg",
+    "static/media/drinkIcon.efc0d3c1.svg": "/app-toot-name/static/media/drinkIcon.efc0d3c1.svg",
+    "static/media/edit.b62beaf5.svg": "/app-toot-name/static/media/edit.b62beaf5.svg",
+    "static/media/exploreIcon.07634623.svg": "/app-toot-name/static/media/exploreIcon.07634623.svg",
+    "static/media/eyeClosed.89eada65.svg": "/app-toot-name/static/media/eyeClosed.89eada65.svg",
+    "static/media/eyeOpen.bbb846ef.svg": "/app-toot-name/static/media/eyeOpen.bbb846ef.svg",
+    "static/media/loading.c0b2b964.gif": "/app-toot-name/static/media/loading.c0b2b964.gif",
+    "static/media/mealIcon.40029e7f.svg": "/app-toot-name/static/media/mealIcon.40029e7f.svg",
+    "static/media/menu.b778cb17.svg": "/app-toot-name/static/media/menu.b778cb17.svg",
+    "static/media/profile.74c7b339.svg": "/app-toot-name/static/media/profile.74c7b339.svg",
+    "static/media/profileIcon.44eb3608.svg": "/app-toot-name/static/media/profileIcon.44eb3608.svg",
+    "static/media/searchIcon.7353564d.svg": "/app-toot-name/static/media/searchIcon.7353564d.svg",
+    "static/media/shareIcon.87def1bd.svg": "/app-toot-name/static/media/shareIcon.87def1bd.svg",
+    "static/media/whiteHeartIcon.2b822118.svg": "/app-toot-name/static/media/whiteHeartIcon.2b822118.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80a417a2.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.88341d2c.chunk.js",
+    "static/css/main.3c45135c.chunk.css",
+    "static/js/main.f2577acb.chunk.js"
+  ]
+}
