@@ -1,0 +1,34 @@
+.recommendation-area {
+  display: flex;
+  overflow: scroll;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.recommendation-area p {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.recommendation-area button {
+  outline: none;
+  outline-style: none;
+}
+
+.recommendation-box {
+  background-color: rgba(0, 0, 0, 0.151);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.479);
+  outline: none;
+  transform: scale(0.9);
+}
+
+
+.recommendation-box img {
+  border-radius: 10px 10px 0 0;
+  width: 50vw;
+}
+

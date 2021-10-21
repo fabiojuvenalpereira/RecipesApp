@@ -1,0 +1,9 @@
+.ingredients-lib {
+  background-color: #2f2f35;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  justify-items: center;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+  min-height: 80vh;
+}

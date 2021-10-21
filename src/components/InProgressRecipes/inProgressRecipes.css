@@ -1,0 +1,132 @@
+.main-progress {
+  align-items: center;
+  background-color: #2f2f35;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.recipe-title-in-progress {
+  color: white;
+  margin-top: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.recipe-category h2 {
+  color: white;
+  font-weight: 200;
+  text-align: center;
+}
+
+.img {
+  box-shadow: 0 0 13px -5px black;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5em 0;
+  width: 100%;
+}
+
+.buttons button img {
+  filter: invert(98%) saturate(0%) hue-rotate(29deg) brightness(102%) contrast(100%);
+  width: 2em;
+}
+
+.ingredients {
+  align-self: flex-start;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  text-indent: 1.5em;
+}
+
+.check label {
+  align-items: center;
+  display: flex;
+  margin-left: 2em;
+}
+
+.check label input {
+  opacity: 0;
+  position: absolute;
+}
+
+.check span {
+  background-color: white;
+  border: none;
+  display: block;
+  height: 15px;
+  width: 15px;
+}
+
+.check input:checked + span {
+  background-color: rgb(212, 247, 56);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.instructions-area {
+  color: white;
+  text-align: justify;
+  width: 90%;
+}
+
+.fav-button {
+  height: 35px;
+  width: 35px;
+}
+
+.finish-recipe-btn button {
+  background-color: #4f4f58;
+  color: white;
+  font-weight: 600;
+  outline: none;
+  outline-style: none;
+}
+
+.finish-recipe-btn {
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  outline-style: none;
+  transform: scale(0.9);
+  transition: 0.2s;
+  width: 100%;
+}
+
+.finish-recipe-btn:hover {
+  transform: scale(0.95);
+  transition: 0.2s;
+}
+
+.finish-recipe-btn:active {
+  transform: scale(1);
+  transition: 0.2s;
+}
+
+.buttons button {
+  background: none;
+  border: none;
+  border-radius: 6px;
+  margin: 0 1em;
+  outline: none;
+  transform: scale(0.9);
+  transition: 0.2s;
+}
+
+.buttons button:hover {
+  transform: scale(0.98);
+  transition: 0.2s;
+}
+
+.buttons button:active {
+  transform: scale(1);
+  transition: 0.2s;
+}

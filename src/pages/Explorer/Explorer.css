@@ -1,0 +1,41 @@
+.main-explorer {
+  background-color: #2f2f35;
+}
+
+.explorer-buttons {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.explorer-buttons button {
+  background-color: #4f4f58;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.185);
+  color: white;
+  font-size: 1.5em;
+  margin-top: 15vh;
+  padding: 1em;
+  transform: scale(0.92);
+  transition: 0.2s;
+}
+
+.explorer-buttons button:hover {
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.185);
+  padding: 1em;
+  transform: scale(0.97);
+  transition: 0.2s;
+}
+
+.explorer-buttons button:active {
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.185);
+  padding: 1em;
+  transform: scale(0.9);
+  transition: 0.2s;
+}
