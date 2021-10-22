@@ -39,8 +39,6 @@ export default function Login() {
   // referência para a regex utilizada: https://medium.com/@zackcreach/shred-the-gnar-how-to-write-decode-regex-for-email-validation-9a970fa91641
   const buttonDisabled = () => {
     const securityLength = 7;
-    // Verifico de o email segue o padrao e se o tamanho da senha é maior ou igual a 7
-    // Ser for verdadeiro eu removo o disabled do button
     return !(/(^\w.*@\w+\.\w)/.test(user) && password.length >= securityLength);
   };
 
@@ -48,7 +46,7 @@ export default function Login() {
     <form className="form-horizontal">
       <div className="form-content">
         <label htmlFor="user" className="input-email">
-          E-mail
+        <h5 className="input-email-text">E-mail</h5>
           <input
             type="text"
             data-testid="email-input"
@@ -59,18 +57,20 @@ export default function Login() {
         </label>
         <div className="input-password-area">
           <label htmlFor="password" className="input-password">
-            Senha
-            <input
-              type={ visible }
-              data-testid="password-input"
-              name="password"
-              value={ password }
-              onChange={ handleChange }
-            />
+            <h5 className="input-password-text">Senha</h5>
+            <div className="input-password-int">
+              <input
+                type={ visible }
+                data-testid="password-input"
+                name="password"
+                value={ password }
+                onChange={ handleChange }
+              />
+              <button type="button" onClick={ handlePassword } className="btn-hidden">
+                <img src={ hidden ? eyeOpen : eyeClosed } alt="eye-passowrd" />
+              </button>
+            </div>
           </label>
-          <button type="button" onClick={ handlePassword } className="btn-hidden">
-            <img src={ hidden ? eyeOpen : eyeClosed } alt="eye-passowrd" />
-          </button>
         </div>
         <button
           data-testid="login-submit-btn"

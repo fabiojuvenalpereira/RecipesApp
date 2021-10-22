@@ -1,5 +1,4 @@
 :root {
-
   --pading-base: 1em;
 }
 
@@ -50,24 +49,30 @@
 .form-content .input-password input {
   background-color: rgb(235, 235, 235);
   border: none;
-  border-radius: 6px;
-  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.164);
+  border-radius: 6px 0  0 6px;
   outline-style: none;
   padding: var(--pading-base);
-}
-
-.input-password-area {
-  border-radius: 6px;
-  display: flex;
+  width: 100%;
 }
 
 .input-password-area .btn-hidden {
-  align-self: center;
   background: none;
   border: none;
-  margin-top: 1em;
   outline-style: none;
-  padding: 0.5em;
+}
+
+.input-password-int {
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.164);
+  border-radius: 6px;
+}
+
+.input-password-int button {
+  background: none;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  outline-style: none;
 }
 
 .enter-btn {
