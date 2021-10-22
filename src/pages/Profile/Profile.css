@@ -4,19 +4,20 @@
   font-family: Montserrat , sans-serif;
 }
 
-.main-profile-page {
-  background: #2f2f35;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 8vh;
-  min-height: 90vh;
-  width: 100vw;
-}
-
 .main-profile-content {
-  height: 100%;
+  background: #2f2f35;
+  min-height: 80vh;
+  height: 80vh;
+  margin-bottom: 10vh;
   margin-top: 10vh;
   width: 100%;
+}
+
+.main-profile-page {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
 }
 
 .main-profile-image {
@@ -85,13 +86,13 @@
   margin-top: 1em;
   text-align: center;
   text-transform: uppercase;
+  max-width: 100%;
 }
 
 .main-profile-buttons {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-top: 4em;
 }
 
 .btn {
