@@ -7,7 +7,11 @@ ps. Este app foi desenvolvido para visualização em dispositivos móveis, princ
 - Quando aparecer o menu de inspeção Pressionar ctrl + shift + m.
 - Utilizando as caixas para alteração da resolução logo na parte superior da tela selecionar a resolução 360 x 640.
 
-[![N|trybe](https://uploads-ssl.webflow.com/5fba98ad987231cf0efa3d58/5fba9c9a93a2e77624258d49_Logo.svg)](https://www.betrybe.com/)
+<div >
+  <a href="https://www.betrybe.com/">
+    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Eg8INSNe--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/5302/26258239-4ac6-4d28-b94c-ba6d3f9eabc2.png" alt="logo trybe" width="50" /> 
+  </a>
+</div>
 
 ## Over View do Projeto
 
